@@ -40,5 +40,13 @@
     & > *:last-child {
       padding: 0 15px;
     }
+
+    a {
+      text-decoration: underline dotted;
+
+      &:hover {
+        color: #86D4B1;
+      }
+    }
   }
 }
